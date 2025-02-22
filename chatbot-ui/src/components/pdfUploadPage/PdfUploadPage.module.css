@@ -1,0 +1,37 @@
+/* PdfUploadPage.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.fileInput {
+    margin: 20px;
+    padding: 12px 20px;
+    border: 2px solid grey; /* Blue border */
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #413a3a; /* White background */
+    font-size: 16px;
+    color: #f8f8f7; /* Dark grey text */
+}
+
+.uploadButton {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color:#5f43b2; 
+    color: #f8f8f7;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.uploadButton:hover {
+    background-color:#600fda;
+    transform: scale(1.05); /* Slight increase in size */
+}

@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 93vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    padding-bottom: 0;
+}
+
+.chatboxContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.inputContainer {
+    position: sticky;
+    bottom: 0;
+    padding: 1rem 0;
+    border-top: 1px solid #e0e0e0;
+    background-color: black;
+}
+
+.inputArea {
+    display: flex;
+    align-items: center;
+}
+
+.messageInput {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-right: 0.5rem;
+    background-color: rgb(240, 234, 234)
+}
+
+.sendBtn {
+    cursor: pointer;
+    padding: 0.5rem;
+    color: #5f43b2;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 70%;
+}
+
+.chatgpt {
+    align-self: flex-start;
+    background-color: #5f43b2;
+    color: #f8f8f7;
+}
+
+.human {
+    align-self: flex-end;
+    background-color: #232224;
+    color: #f8f8f7;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.cardContainer{
+    margin-top: 20%;
+}
+
+
+.ask{
+    align-self: center;
+}
+
+.rIconContainer{
+    display:flex;
+    justify-content: center;
+}
+
+.icon{
+    animation: rotate 1s forwards;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
